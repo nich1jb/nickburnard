@@ -1,5 +1,3 @@
-import { COLOURS } from '../constants'
-
 export const CrossIcon = () => {
   return (
     <svg height='50' width='50'>

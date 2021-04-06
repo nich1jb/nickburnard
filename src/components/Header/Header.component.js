@@ -68,7 +68,7 @@ export const Header = ({ handleClick }) => {
         layers={[
           {
             image: './images/background.jpg',
-            amount: 0.1,
+            amount: 0.4,
           },
         ]}
       />

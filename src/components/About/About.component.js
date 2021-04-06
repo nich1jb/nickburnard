@@ -3,6 +3,37 @@ import { BsPerson } from 'react-icons/bs'
 
 import FadeSection from '../FadeSection'
 import { Title, Quote } from '../common'
+import { COLOURS } from '../common/constants'
+
+const MainContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  background: radial-gradient(
+      circle,
+      transparent 20%,
+      ${COLOURS.ANAKIWA} 20%,
+      ${COLOURS.ANAKIWA} 80%,
+      transparent 80%,
+      transparent
+    ),
+    radial-gradient(
+        circle,
+        transparent 20%,
+        ${COLOURS.ANAKIWA} 20%,
+        ${COLOURS.ANAKIWA} 80%,
+        transparent 80%,
+        transparent
+      )
+      50px 50px,
+    linear-gradient(${COLOURS.PERANO} 8px, transparent 8px) 0 -4px,
+    linear-gradient(90deg, ${COLOURS.PERANO} 8px, transparent 8px) -4px 0;
+  background-color: ${COLOURS.ANAKIWA};
+  background-size: 100px 100px, 100px 100px, 50px 50px, 50px 50px;
+`
 
 const AboutContainer = styled.div`
   box-sizing: border-box;
@@ -50,30 +81,32 @@ const ProfileImage = styled.img`
 
 export const About = ({ scrollToRef }) => {
   return (
-    <AboutContainer ref={scrollToRef}>
-      <FadeSection>
-        <Title icon={<BsPerson />}>Who am I?</Title>
-        <ContentContainer>
-          <ProfileImage src='./images/itsme.jpg' />
-          <AboutText>
-            <Paragraph>
-              <Quote>
-                "Who am I? You sure you want to know? The story of my life is not for the faint of heart. If somebody
-                told you I was just your average, ordinary guy, not a care in the world, then somebody lied." - Peter
-                Parker
-              </Quote>
-            </Paragraph>
-            <Paragraph>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In semper, est in placerat ornare, ligula tellus
-              vestibulum quam, in pulvinar urna lorem eu nisl. Sed vitae nisi orci. Nulla at libero urna. Sed et sem
-              eget massa pulvinar auctor eget eget eros. Nam blandit blandit dolor, in pellentesque odio consequat
-              vitae. Nulla facilisi. In dui ligula, dapibus quis urna elementum, semper viverra nulla. Nulla
-              pellentesque augue sit amet ultrices accumsan. Aliquam erat volutpat. Donec vitae nibh aliquet nisl
-              scelerisque tincidunt. Aliquam in dapibus enim.
-            </Paragraph>
-          </AboutText>
-        </ContentContainer>
-      </FadeSection>
-    </AboutContainer>
+    <MainContainer>
+      <AboutContainer ref={scrollToRef}>
+        <FadeSection>
+          <Title icon={<BsPerson />}>Who am I?</Title>
+          <ContentContainer>
+            <ProfileImage src='./images/itsme.jpg' />
+            <AboutText>
+              <Paragraph>
+                <Quote>
+                  "Who am I? You sure you want to know? The story of my life is not for the faint of heart. If somebody
+                  told you I was just your average, ordinary guy, not a care in the world, then somebody lied." - Peter
+                  Parker
+                </Quote>
+              </Paragraph>
+              <Paragraph>
+                A Software Engineer who loves all things React (though I also have worked with Angular and
+                Vue). With four years of frontend experience, I have developed strong engineering skills and
+                practices and pride myself on producing large-scale solutions from the ground up. Now a
+                Senior, I have been mentoring juniors and leading technical decisions in more recent years. I
+                have always loved working with great engineers and people who have a clear vision and see it
+                through.
+              </Paragraph>
+            </AboutText>
+          </ContentContainer>
+        </FadeSection>
+      </AboutContainer>
+    </MainContainer>
   )
 }
