@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import { BsPerson } from 'react-icons/bs'
+import { ToWords } from 'to-words'
 
 import FadeSection from '../FadeSection'
 import { Title, Quote } from '../common'
@@ -38,26 +39,19 @@ const MainContainer = styled.div`
 const AboutContainer = styled.div`
   box-sizing: border-box;
   height: 100%;
-  @media (max-width: 768px) {
-    height: 100vh;
-  }
-  @media (max-width: 480px) {
-    height: 150vh;
-  }
-  @media (max-width: 320px) {
-    height: 200vh;
-  }
   width: 100%;
   max-width: 1200px;
-  padding: 0 30px 90px;
+  padding: 0 30px 50px;
 `
 
 const ContentContainer = styled.div`
   display: flex;
+  justify-content: center;
   @media (max-width: 768px) {
     flex-direction: column;
     align-items: center;
   }
+  padding-bottom: 40px;
 `
 
 const AboutText = styled.div`
@@ -79,7 +73,35 @@ const ProfileImage = styled.img`
   }
 `
 
+const Image = styled.img`
+  box-sizing: border-box;
+  width: 23%;
+  border-radius: 20%;
+  margin: 10px;
+  @media (max-width: 768px) {
+    height: 300px;
+    width: 300px;
+    margin-right: 0;
+  }
+  @media (max-width: 420px) {
+    height: 70vw;
+    width: 70vw;
+    margin-right: 0;
+  }
+`
+
 export const About = ({ scrollToRef }) => {
+  const calculateAge = () => {
+    var birthDate = new Date('1994-03-18')
+    var ageDifMs = Date.now() - birthDate
+    var ageDate = new Date(ageDifMs) // miliseconds from epoch
+    return Math.abs(ageDate.getUTCFullYear() - 1970)
+  }
+
+  const toWords = new ToWords()
+  const age = calculateAge()
+  const yearsInIndustry = toWords.convert(new Date().getFullYear() - 2016).toLowerCase()
+
   return (
     <MainContainer>
       <AboutContainer ref={scrollToRef}>
@@ -96,15 +118,29 @@ export const About = ({ scrollToRef }) => {
                 </Quote>
               </Paragraph>
               <Paragraph>
-                A Software Engineer who loves all things React (though I also have worked with Angular and
-                Vue). With four years of frontend experience, I have developed strong engineering skills and
-                practices and pride myself on producing large-scale solutions from the ground up. Now a
-                Senior, I have been mentoring juniors and leading technical decisions in more recent years. I
-                have always loved working with great engineers and people who have a clear vision and see it
-                through.
+                Hi I'm Nick, a {age} year old software engineer with around {yearsInIndustry} years of industry
+                experience. I like Front End so much that I made this website for you to see. You are so very welcome.
+              </Paragraph>
+              <Paragraph>
+                Over the years, I have developed strong engineering skills and practices and pride myself on producing
+                large-scale solutions from the ground up and, in more recent years, have been mentoring juniors and
+                leading technical decisions. I have always loved working with great engineers and people who have a
+                clear vision and see it through.
+              </Paragraph>
+              <Paragraph>
+                Outside of work, I enjoy painting Warhammer while watching trashing tv, playing video games, and
+                spending time with my friends. Here's some photos for proof:
               </Paragraph>
             </AboutText>
           </ContentContainer>
+          <FadeSection>
+            <ContentContainer>
+              <Image src='./images/about01_400.png' />
+              <Image src='./images/about02_400.png' />
+              <Image src='./images/about03_400.png' />
+              <Image src='./images/about04_400.png' />
+            </ContentContainer>
+          </FadeSection>
         </FadeSection>
       </AboutContainer>
     </MainContainer>

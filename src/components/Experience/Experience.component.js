@@ -78,13 +78,34 @@ export const Experience = () => {
           </JobCard>
         </FadeSection>
         <FadeSection>
-          <JobCard logo={'./images/digio.jpeg'} title={'DigIO'} jobTitle={'Software Engineer'} from={'2018'} to={'2020'}>
+          <JobCard
+            logo={'./images/digio.jpeg'}
+            title={'DigIO'}
+            jobTitle={'Software Engineer'}
+            from={'2018'}
+            to={'2020'}
+          >
             <Paragraph>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet rhoncus magna. Maecenas ultrices,
-              ligula ut faucibus vehicula, elit velit rhoncus ligula, non euismod erat risus imperdiet lorem. Donec leo
-              augue, auctor eu pellentesque eget, sollicitudin a tellus. Duis condimentum, augue et gravida elementum,
-              dolor risus suscipit tortor, non pretium nibh urna sed urna. Nunc auctor ipsum magna, sed maximus ligula
-              maximus eget.
+              Worked with various clients (namely ANZ and Reecetech) in a consultative manner as a front end engineer.
+              During this time, my responsibilities and skill set included:
+            </Paragraph>
+            <Paragraph>
+              • Expertise in React (and other front end technologies), the ability to make decisions around the
+              technology and communicate this expertise
+            </Paragraph>
+            <Paragraph>
+              • Developing back end skills in relational database design and implementation (DynamoDB), API calls and
+              data implementation (Java and Python)
+            </Paragraph>
+            <Paragraph>• Mentoring interns and junior engineers</Paragraph>
+            <Paragraph>
+              • Strong communication skills and the ability to explain concepts to both the technical and business sides
+              of an organisation
+            </Paragraph>
+            <Paragraph>
+              • Extra-curricular involvement in DigIO across the swag team, involving budget management, design
+              decisions, consulting the company wants and needs, and making branding and marketing decisions within and
+              outside of the company
             </Paragraph>
           </JobCard>
         </FadeSection>
@@ -97,22 +118,26 @@ export const Experience = () => {
             to={'2018'}
           >
             <Paragraph>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet rhoncus magna. Maecenas ultrices,
-              ligula ut faucibus vehicula, elit velit rhoncus ligula, non euismod erat risus imperdiet lorem. Donec leo
-              augue, auctor eu pellentesque eget, sollicitudin a tellus. Duis condimentum, augue et gravida elementum,
-              dolor risus suscipit tortor, non pretium nibh urna sed urna. Nunc auctor ipsum magna, sed maximus ligula
-              maximus eget.
+              Also a consulting company, clients were ANZ and CoreLogic. Throughout this time, I began as a front end
+              engineer and dabbled in test automation. This included:
+              <Paragraph>
+                • Producing automated test scripts in front end (Solenium, Webdriver, Protractor and Cucumber) and back
+                end (Mocha)
+              </Paragraph>
+              <Paragraph>• Understanding and capturing edge cases in test automation design</Paragraph>
+              <Paragraph>• Patching small bugs where possible</Paragraph>
             </Paragraph>
           </JobCard>
         </FadeSection>
         <FadeSection>
           <JobCard logo={'./images/nab.png'} title={'nab'} jobTitle={'IBL Student'} from={'2015'}>
             <Paragraph>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet rhoncus magna. Maecenas ultrices,
-              ligula ut faucibus vehicula, elit velit rhoncus ligula, non euismod erat risus imperdiet lorem. Donec leo
-              augue, auctor eu pellentesque eget, sollicitudin a tellus. Duis condimentum, augue et gravida elementum,
-              dolor risus suscipit tortor, non pretium nibh urna sed urna. Nunc auctor ipsum magna, sed maximus ligula
-              maximus eget.
+              As part of Industry Based Learning, completed a 6-month internship with NAB around Cloud Engineering. This
+              internship touched in:
+              <Paragraph>• Provisioning toolings in AWS</Paragraph>
+              <Paragraph>
+                • Building a shopfront site to gather requirements for teams building in the platform
+              </Paragraph>
             </Paragraph>
           </JobCard>
         </FadeSection>
@@ -125,11 +150,9 @@ export const Experience = () => {
             to={'2015'}
           >
             <Paragraph>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet rhoncus magna. Maecenas ultrices,
-              ligula ut faucibus vehicula, elit velit rhoncus ligula, non euismod erat risus imperdiet lorem. Donec leo
-              augue, auctor eu pellentesque eget, sollicitudin a tellus. Duis condimentum, augue et gravida elementum,
-              dolor risus suscipit tortor, non pretium nibh urna sed urna. Nunc auctor ipsum magna, sed maximus ligula
-              maximus eget.
+              Attended Monash University primarily on the Clayton campus. While my degree was in Computer Science, I
+              also did units in philosophy and games development. For the final six months of my degree I completed an
+              IBL placement at NAB which helped me get a foot in the door in the industry and to kick-start my career.
             </Paragraph>
           </JobCard>
         </FadeSection>
