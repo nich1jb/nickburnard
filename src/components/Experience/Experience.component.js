@@ -69,11 +69,10 @@ export const Experience = () => {
             to={'Present'}
           >
             <Paragraph>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet rhoncus magna. Maecenas ultrices,
-              ligula ut faucibus vehicula, elit velit rhoncus ligula, non euismod erat risus imperdiet lorem. Donec leo
-              augue, auctor eu pellentesque eget, sollicitudin a tellus. Duis condimentum, augue et gravida elementum,
-              dolor risus suscipit tortor, non pretium nibh urna sed urna. Nunc auctor ipsum magna, sed maximus ligula
-              maximus eget.
+              At the start of this year, I moved away from consulting for the first time in my career and started
+              working at Annalise.ai. Here, I’m working as a front end developer on the internal Annalise CXR product, a
+              medical imaging AI tool used to assist clinicians with the interpretation of radiological imaging studies.
+              My journey here has only just started and I’m very excited to see where it will take me!
             </Paragraph>
           </JobCard>
         </FadeSection>
