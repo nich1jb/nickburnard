@@ -118,7 +118,7 @@ export const About = ({ scrollToRef }) => {
                 </Quote>
               </Paragraph>
               <Paragraph>
-                Hi I'm Nick, a {age} year old software engineer with around {yearsInIndustry} years of industry
+                Hi I'm Nick (he/him), a {age} year old software engineer with around {yearsInIndustry} years of industry
                 experience. I like Front End so much that I made this website for you to see. How about that?
               </Paragraph>
               <Paragraph>
