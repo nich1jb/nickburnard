@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/%7Bnickburnard%7D/static/css/main.306aa095.chunk.css",
+    "main.js": "/%7Bnickburnard%7D/static/js/main.3000700a.chunk.js",
+    "main.js.map": "/%7Bnickburnard%7D/static/js/main.3000700a.chunk.js.map",
+    "runtime-main.js": "/%7Bnickburnard%7D/static/js/runtime-main.bb548c6f.js",
+    "runtime-main.js.map": "/%7Bnickburnard%7D/static/js/runtime-main.bb548c6f.js.map",
+    "static/js/2.f77e2d20.chunk.js": "/%7Bnickburnard%7D/static/js/2.f77e2d20.chunk.js",
+    "static/js/2.f77e2d20.chunk.js.map": "/%7Bnickburnard%7D/static/js/2.f77e2d20.chunk.js.map",
+    "static/js/3.fd38e8c2.chunk.js": "/%7Bnickburnard%7D/static/js/3.fd38e8c2.chunk.js",
+    "static/js/3.fd38e8c2.chunk.js.map": "/%7Bnickburnard%7D/static/js/3.fd38e8c2.chunk.js.map",
+    "index.html": "/%7Bnickburnard%7D/index.html",
+    "static/css/main.306aa095.chunk.css.map": "/%7Bnickburnard%7D/static/css/main.306aa095.chunk.css.map",
+    "static/js/2.f77e2d20.chunk.js.LICENSE.txt": "/%7Bnickburnard%7D/static/js/2.f77e2d20.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bb548c6f.js",
+    "static/js/2.f77e2d20.chunk.js",
+    "static/css/main.306aa095.chunk.css",
+    "static/js/main.3000700a.chunk.js"
+  ]
+}
