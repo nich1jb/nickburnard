@@ -65,7 +65,7 @@ export const Experience = () => {
             logo={'./images/annalise.png'}
             title={'annalise.ai'}
             jobTitle={'Software Engineer'}
-            from={'2020'}
+            from={'2021'}
             to={'Present'}
           >
             <Paragraph>
@@ -120,13 +120,13 @@ export const Experience = () => {
             <Paragraph>
               Also a consulting company, clients were ANZ and CoreLogic. Throughout this time, I began as a front end
               engineer and dabbled in test automation. This included:
-              <Paragraph>
-                • Producing automated test scripts in front end (Solenium, Webdriver, Protractor and Cucumber) and back
-                end (Mocha)
-              </Paragraph>
-              <Paragraph>• Understanding and capturing edge cases in test automation design</Paragraph>
-              <Paragraph>• Patching small bugs where possible</Paragraph>
             </Paragraph>
+            <Paragraph>
+              • Producing automated test scripts in front end (Solenium, Webdriver, Protractor and Cucumber) and back
+              end (Mocha)
+            </Paragraph>
+            <Paragraph>• Understanding and capturing edge cases in test automation design</Paragraph>
+            <Paragraph>• Patching small bugs where possible</Paragraph>
           </JobCard>
         </FadeSection>
         <FadeSection>
@@ -134,11 +134,9 @@ export const Experience = () => {
             <Paragraph>
               As part of Industry Based Learning, completed a 6-month internship with NAB around Cloud Engineering. This
               internship touched in:
-              <Paragraph>• Provisioning toolings in AWS</Paragraph>
-              <Paragraph>
-                • Building a shopfront site to gather requirements for teams building in the platform
-              </Paragraph>
             </Paragraph>
+            <Paragraph>• Provisioning toolings in AWS</Paragraph>
+            <Paragraph>• Building a shopfront site to gather requirements for teams building in the platform</Paragraph>
           </JobCard>
         </FadeSection>
         <FadeSection>
