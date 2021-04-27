@@ -114,12 +114,12 @@ export const About = ({ scrollToRef }) => {
                 <Quote>
                   "Who am I? You sure you want to know? The story of my life is not for the faint of heart. If somebody
                   told you I was just your average, ordinary guy, not a care in the world, then somebody lied." - Peter
-                  Parker
+                  Parker/Spider-Man
                 </Quote>
               </Paragraph>
               <Paragraph>
-                Hi I'm Nick, a {age} year old software engineer with around {yearsInIndustry} years of industry
-                experience. I like Front End so much that I made this website for you to see. You are so very welcome.
+                Hi I'm Nick (he/him), a {age} year old software engineer with around {yearsInIndustry} years of industry
+                experience. I like Front End so much that I made this website for you to see. How about that?
               </Paragraph>
               <Paragraph>
                 Over the years, I have developed strong engineering skills and practices and pride myself on producing
@@ -128,8 +128,8 @@ export const About = ({ scrollToRef }) => {
                 clear vision and see it through.
               </Paragraph>
               <Paragraph>
-                Outside of work, I enjoy painting Warhammer while watching trashing tv, playing video games, and
-                spending time with my friends. Here's some photos for proof:
+                Outside of work, I enjoy painting Warhammer while watching trashy tv, playing video games, and spending
+                time with my friends. Here's some photos for proof:
               </Paragraph>
             </AboutText>
           </ContentContainer>

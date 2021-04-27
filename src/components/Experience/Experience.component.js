@@ -65,15 +65,14 @@ export const Experience = () => {
             logo={'./images/annalise.png'}
             title={'annalise.ai'}
             jobTitle={'Software Engineer'}
-            from={'2020'}
+            from={'2021'}
             to={'Present'}
           >
             <Paragraph>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet rhoncus magna. Maecenas ultrices,
-              ligula ut faucibus vehicula, elit velit rhoncus ligula, non euismod erat risus imperdiet lorem. Donec leo
-              augue, auctor eu pellentesque eget, sollicitudin a tellus. Duis condimentum, augue et gravida elementum,
-              dolor risus suscipit tortor, non pretium nibh urna sed urna. Nunc auctor ipsum magna, sed maximus ligula
-              maximus eget.
+              At the start of this year, I moved away from consulting for the first time in my career and started
+              working at Annalise.ai. Here, I’m working as a front end developer on the internal Annalise CXR product, a
+              medical imaging AI tool used to assist clinicians with the interpretation of radiological imaging studies.
+              My journey here has only just started and I’m very excited to see where it will take me!
             </Paragraph>
           </JobCard>
         </FadeSection>
@@ -120,13 +119,13 @@ export const Experience = () => {
             <Paragraph>
               Also a consulting company, clients were ANZ and CoreLogic. Throughout this time, I began as a front end
               engineer and dabbled in test automation. This included:
-              <Paragraph>
-                • Producing automated test scripts in front end (Solenium, Webdriver, Protractor and Cucumber) and back
-                end (Mocha)
-              </Paragraph>
-              <Paragraph>• Understanding and capturing edge cases in test automation design</Paragraph>
-              <Paragraph>• Patching small bugs where possible</Paragraph>
             </Paragraph>
+            <Paragraph>
+              • Producing automated test scripts in front end (Solenium, Webdriver, Protractor and Cucumber) and back
+              end (Mocha)
+            </Paragraph>
+            <Paragraph>• Understanding and capturing edge cases in test automation design</Paragraph>
+            <Paragraph>• Patching small bugs where possible</Paragraph>
           </JobCard>
         </FadeSection>
         <FadeSection>
@@ -134,11 +133,9 @@ export const Experience = () => {
             <Paragraph>
               As part of Industry Based Learning, completed a 6-month internship with NAB around Cloud Engineering. This
               internship touched in:
-              <Paragraph>• Provisioning toolings in AWS</Paragraph>
-              <Paragraph>
-                • Building a shopfront site to gather requirements for teams building in the platform
-              </Paragraph>
             </Paragraph>
+            <Paragraph>• Provisioning toolings in AWS</Paragraph>
+            <Paragraph>• Building a shopfront site to gather requirements for teams building in the platform</Paragraph>
           </JobCard>
         </FadeSection>
         <FadeSection>
