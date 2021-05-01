@@ -36,7 +36,7 @@ const Subtitle = styled.div`
 `
 
 const TextContainer = styled.div`
-  margin-left: 20px;
+  margin: 20px;
   display: flex;
   flex-direction: column;
 `
