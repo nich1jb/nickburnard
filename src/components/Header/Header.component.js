@@ -22,7 +22,7 @@ export const Header = ({ handleClick }) => {
       <IconsOverlay />
       <HeaderOverlay>
         <HeaderText>nick burnard</HeaderText>
-        <HeaderText>front end developer</HeaderText>
+        <HeaderText>senior developer</HeaderText>
         <SocialsContainer>
           <CircleButton link={'https://www.linkedin.com/in/nick-burnard/'}>
             <SiLinkedin />

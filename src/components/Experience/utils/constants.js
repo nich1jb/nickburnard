@@ -1,12 +1,26 @@
 export const jobCards = [
   {
+    logo: './images/rea.png',
+    title: 'REA Group',
+    jobTitle: 'Senior Developer',
+    from: '2022',
+    to: 'present',
+    description: [
+      'Currently working as a Senior Devloper at REA Group within the Marketplace tribe. My journey here has only just started and I’m very excited to see where it will take me!',
+    ],
+  },
+  {
     logo: './images/annalise.png',
     title: 'annalise.ai',
-    jobTitle: 'Software Engineer',
+    jobTitle: 'Senior Software Engineer',
     from: '2021',
     to: '2022',
     description: [
-      'At the start of this year, I moved away from consulting for the first time in my career and started working at Annalise.ai. Here, I’m working as a front end developer on the internal Annalise CXR product, a medical imaging AI tool used to assist clinicians with the interpretation of radiological imaging studies. My journey here has only just started and I’m very excited to see where it will take me!',
+      'Worked primarily as a front end developer on the annalise CXR & CTB products, a medical imaging AI tool used to assist clinicians with the interpretation of radiological imaging studies. Here I worked with:',
+      '• Chest X-Ray & CT Brain products within the annalise application. These were both build using React & Electron',
+      '• Backend skills using node.js & Postgres',
+      '• Lead a feature for a log adaptor built in golang to communicate between the annalise product and Inteleviewer',
+      '• Mentoring junior developers',
     ],
   },
   {
