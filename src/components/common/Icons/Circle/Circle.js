@@ -1,4 +1,4 @@
-import { COLOURS } from '../constants'
+import { COLOURS } from '../../constants'
 
 export const CircleIcon = () => {
   return (

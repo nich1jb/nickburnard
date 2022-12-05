@@ -1,19 +1,4 @@
-import styled from 'styled-components'
-
-import { COLOURS } from '../common/constants'
-
-const Link = styled.a`
-  color: ${COLOURS.ROSE};
-`
-
-const FooterContainer = styled.div`
-  font-family: 'Kiwi Maru', serif;
-  width: 100%;
-  background: ${COLOURS.STRATOS};
-  color: white;
-  text-align: center;
-  padding: 10px 0;
-`
+import { FooterContainer, Link } from './Footer.styles'
 
 export const Footer = () => {
   return (

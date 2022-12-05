@@ -1,11 +1,5 @@
-import styled from 'styled-components'
-
-import { COLOURS } from '../constants'
-
-const MainContainer = styled.span`
-  color: ${COLOURS.SCORPION};
-`
+import { QuoteContainer } from './Quote.styles'
 
 export const Quote = ({ children }) => {
-  return <MainContainer>{children}</MainContainer>
+  return <QuoteContainer>{children}</QuoteContainer>
 }

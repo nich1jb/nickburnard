@@ -1,94 +1,9 @@
-import styled from 'styled-components'
 import { BsPerson } from 'react-icons/bs'
 import { ToWords } from 'to-words'
-
-import FadeSection from '../FadeSection'
+import FadeSection from '../common/FadeSection'
 import { Title, Quote } from '../common'
-import { COLOURS } from '../common/constants'
-
-const MainContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  box-sizing: border-box;
-  background: radial-gradient(
-      circle,
-      transparent 20%,
-      ${COLOURS.ANAKIWA} 20%,
-      ${COLOURS.ANAKIWA} 80%,
-      transparent 80%,
-      transparent
-    ),
-    radial-gradient(
-        circle,
-        transparent 20%,
-        ${COLOURS.ANAKIWA} 20%,
-        ${COLOURS.ANAKIWA} 80%,
-        transparent 80%,
-        transparent
-      )
-      50px 50px,
-    linear-gradient(${COLOURS.PERANO} 8px, transparent 8px) 0 -4px,
-    linear-gradient(90deg, ${COLOURS.PERANO} 8px, transparent 8px) -4px 0;
-  background-color: ${COLOURS.ANAKIWA};
-  background-size: 100px 100px, 100px 100px, 50px 50px, 50px 50px;
-`
-
-const AboutContainer = styled.div`
-  box-sizing: border-box;
-  height: 100%;
-  width: 100%;
-  max-width: 1200px;
-  padding: 0 30px 50px;
-`
-
-const ContentContainer = styled.div`
-  display: flex;
-  justify-content: center;
-  @media (max-width: 768px) {
-    flex-direction: column;
-    align-items: center;
-  }
-  padding-bottom: 40px;
-`
-
-const AboutText = styled.div`
-  display: flex;
-  flex-direction: column;
-`
-
-const Paragraph = styled.p`
-  font-size: 16px;
-`
-
-const ProfileImage = styled.img`
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
-  margin-right: 30px;
-  @media (max-width: 768px) {
-    margin-right: 0;
-  }
-`
-
-const Image = styled.img`
-  box-sizing: border-box;
-  width: 23%;
-  border-radius: 20%;
-  margin: 10px;
-  @media (max-width: 768px) {
-    height: 300px;
-    width: 300px;
-    margin-right: 0;
-  }
-  @media (max-width: 420px) {
-    height: 70vw;
-    width: 70vw;
-    margin-right: 0;
-  }
-`
+import { Paragraph } from '../common/styles'
+import { MainContainer, AboutContainer, ContentContainer, AboutText, ProfileImage, Image } from './About.styles'
 
 export const About = ({ scrollToRef }) => {
   const calculateAge = () => {
